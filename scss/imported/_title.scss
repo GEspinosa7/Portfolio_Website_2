@@ -1,0 +1,31 @@
+#title {
+   background-color: #FF4161;
+}
+
+.title-content {
+   justify-content:space-around;
+   align-items:center;
+}
+
+.title-text-content {
+   justify-content: center;
+   flex-direction: column;
+   width:30%;
+   color: #fff;
+   font-weight: bold;
+}
+
+.title-buttons {
+   margin-top: 20px;
+   justify-content: start;
+}
+
+.title-buttons button {
+   margin: 0px 5px;
+}
+
+.title-image {
+   -ms-transform: rotate(25deg);
+   transform: rotate(25deg);
+   width:20%;
+}

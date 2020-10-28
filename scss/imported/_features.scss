@@ -1,0 +1,25 @@
+#features {
+   margin: 100px 0px;
+   background-color: #fff;
+
+}
+
+.features {
+   justify-content:space-around;
+   align-items:center;
+}
+
+.features-content {
+   flex-direction: column;
+   align-items:center;
+   justify-content:space-around;
+   height: 250px;
+   width: 250px;
+   text-align: center;
+}
+
+.features-icons {
+   color: #EF8172;
+   font-size: 65px;
+   
+}

@@ -1,0 +1,24 @@
+#cta {
+   background-color: #FF4C68;
+   height: 300px;
+}
+
+.cta-content {
+   flex-direction:column;
+   justify-content:space-around;
+   align-items:center;
+   height: 100%;
+   color: #fff;
+}
+
+.cta-content h3 {
+   font-size: 30pt;
+   text-align: center;
+   font-weight: bold;
+   width: 50%;
+}
+
+.cta-buttons {
+   width:20%;
+   justify-content:space-around;
+}
