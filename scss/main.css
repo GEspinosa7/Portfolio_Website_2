@@ -66,135 +66,11 @@ li {
   border-color: #fff !important;
 }
 
-@media only screen and (max-width: 920px) {
-  .title-buttons {
-    margin-top: 20px;
-    width: 100%;
-    height: 100px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-@media only screen and (max-width: 780px) {
-  .navbar {
-    padding: 0 !important;
-    margin: 0px 20px;
-  }
-  .title-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .title-text-content {
-    width: 100%;
-    margin: 50px 0px;
-    text-align: center;
-  }
-  .title-image {
-    width: 50%;
-  }
-  .title-buttons {
-    margin-top: 20px;
-    height: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .title-image {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  #testimonials {
-    padding: 0px;
-  }
-  .testimonials-content h2 {
-    text-align: center;
-    width: 70%;
-  }
-  .testimonials-profile {
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .card-deck {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .press {
-    height: 400px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .cta-content h3 {
-    width: 100%;
-  }
-  .cta-buttons {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 70%;
-  }
-  .footer-icons {
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .delimiter {
-    max-width: 480px;
-  }
-  .title-image {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  #pricing h1 {
-    font-size: 40pt;
-  }
-  .cta-buttons {
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  .cta-buttons {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .cta-buttons {
-    width: 100%;
-  }
-  #footer {
-    height: 170px;
-  }
-  #footer p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-  }
+a {
+  color: black;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  text-decoration: none;
 }
 
 #title {
@@ -371,9 +247,13 @@ li {
 }
 
 .cta-buttons {
-  width: 20%;
+  width: 50%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #footer {
